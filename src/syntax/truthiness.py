@@ -23,7 +23,6 @@ print(
 # True values
 any_str = "with chars"
 any_nonzero = -10
-any_object_with__bool__ = object()  # objects with `def __bool__`
 true = True
 list_with_item = ["item"]
 dict_with_item = {"key": "value"}
@@ -32,9 +31,14 @@ set_with_item = set([1])
 print(
     bool(any_str),
     bool(any_nonzero),
-    bool(any_object_with__bool__),
     bool(true),
     bool(list_with_item),
     bool(dict_with_item),
     bool(set_with_item),
+)
+
+# Code Determined
+any_object_with__bool__ = object()  # objects with `def __bool__`
+print(
+    bool(any_object_with__bool__),
 )
