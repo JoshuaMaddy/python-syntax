@@ -20,15 +20,19 @@ class MyClass:
         self.class_attr = my_class_attr
         self.__my_private_class_attr = my_private_class_attr
 
-    # repr() method
+    # 'dunder', meaning 'double under', methods - python 'magic' methods
+    # that make classes work with standard library functions and operators.
+    # There are dozens, but they are optional.
+
+    # for repr() method
     def __repr__(self) -> str:
         return "My Class!"
 
-    # print(), str() cast
+    # for print(), str() cast
     def __str__(self) -> str:
         return "String representation."
 
-    # == operator
+    # for == operator
     def __eq__(self, value: Any) -> bool:
         if isinstance(value, MyClass):
             return self.class_attr == value.class_attr
