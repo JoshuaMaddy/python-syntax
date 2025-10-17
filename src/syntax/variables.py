@@ -7,6 +7,9 @@ pi = 3.14
 # Copy non-object values
 pi_2 = pi
 
+# 'Constant' variables
+ALL_CAPS_CONSTANT = "don't change me!"
+
 # Unpacking
 a_tuple = (1, 2, 3)
 # 1    2      3
