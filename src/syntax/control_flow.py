@@ -10,6 +10,16 @@ elif number < 7:
 else:
     print("Branch 3")
 
+# Some extra boolean related operator syntax:
+number in [10, 20] # Is present within an iterable
+number not in [5, 20]
+number == 10
+number != 5 
+number is None # like ==
+number is not None # like !=
+number is not None and number == 10 # Short-circuiting `and`, first False quits evaluation.
+number == 5 or number == 10
+
 # There is a less used match/case statement, which checks specific values.
 # Generally, if/else is as performant in Python.
 match number:
