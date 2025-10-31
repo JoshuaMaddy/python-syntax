@@ -1,7 +1,7 @@
 [project]
 name = "python-syntax"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "Demonstrating Python's syntax for other coders!"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []

@@ -2,6 +2,8 @@ This repo demonstrates some of Python's syntax.
 
 Its target audience is for coders familiar with other languages.
 
+This repo also acts as an example project structure!
+
 Recommended order:
 
 1. [variables.py](/src/syntax/variables.py)
@@ -14,3 +16,4 @@ Recommended order:
 8. [blocks.py](/src/syntax/blocks.py)
 9. [classes.py](/src/syntax/classes.py)
 10. [imports.py](/src/syntax/imports.py)
+11. [bonus.py](/src/syntax/bonus.py)

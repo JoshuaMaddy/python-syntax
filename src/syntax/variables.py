@@ -1,6 +1,6 @@
-# This file demonstrates the most common ways of instantiating variables. This file can be ran.
+# NOTE - This file demonstrates the most common ways of instantiating variables. This file can be ran.
 
-# Direct values
+# Literal values
 base_10 = 10
 pi = 3.14
 

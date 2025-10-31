@@ -1,6 +1,6 @@
-# These are the most common operators. This file can be ran.
+# NOTE - These are the most common operators. This file can be ran.
 
-# Standard
+# SECTION - Standard Operators
 print("Standard Operators")
 print(f"1 + 1: {1 + 1}")
 print(f"1 - 1: {1 - 1}")
@@ -10,10 +10,12 @@ print(f"2**4: {2**4}")
 
 # Integer Floor Operator
 print(f"4 // 3: {4 // 3}")
+
 # Modulo
 print(f"4 % 3: {4 % 3}\n")
+# !SECTION
 
-# Assignment Operators
+# SECTION - Assignment Operators
 print("Assignment Operators")
 variable = 0
 variable += 1  # 1
@@ -35,7 +37,9 @@ variable **= 2  # 16
 print(variable)
 variable %= 15  # 1
 print(variable, "\n")
+# !SECTION
 
+# SECTION - Special Operators
 # Walrus Assignment Operator
 if variable := 2 / 2 == 1:
     print(variable)
@@ -43,7 +47,9 @@ if variable := 2 / 2 == 1:
 # Ternary Operator
 print("True") if variable else print("False")
 print("\n")
+# !SECTION
 
+# SECTION - Collection Operators
 # List Operators
 print("List Operators")
 fruits = ["apple", "orange", "banana"]
@@ -87,3 +93,4 @@ print(fruit_count["apple"])
 
 fruit_count["dragon_fruit"] = 1
 print(fruit_count["dragon_fruit"])
+# !SECTION

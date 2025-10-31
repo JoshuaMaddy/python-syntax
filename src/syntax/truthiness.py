@@ -1,6 +1,6 @@
-# This shows common truthiness values. This file can be ran.
+# NOTE - This shows common truthiness values. This file can be ran.
 
-# False values
+# SECTION - False values
 empty_str = ""
 zero = 0
 none = None
@@ -18,9 +18,9 @@ print(
     bool(empty_dict),
     bool(empty_set),
 )
+# !SECTION
 
-
-# True values
+# SECTION - True values
 any_str = "with chars"
 any_nonzero = -10
 true = True
@@ -36,6 +36,7 @@ print(
     bool(dict_with_item),
     bool(set_with_item),
 )
+# !SECTION
 
 # Code Determined
 any_object_with__bool__ = object()  # objects with `def __bool__`

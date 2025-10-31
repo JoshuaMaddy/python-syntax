@@ -1,7 +1,8 @@
-# Methods, aka  Functions / Callables. This file can be ran.
+# NOTE - Methods, aka  Functions / Callables. This file can be ran.
 
 
-# Standard Method
+# SECTION - Method Definitions
+# Standard
 """
     - Name   - Parameter  - Parameter Type
     |        |            |            - Optional Parameter
@@ -12,22 +13,25 @@
 def multiply(to_multiply: int | float, multiplier: int = 2) -> int | float:
     return to_multiply * multiplier
 
-
-# Anonymous Method
+# Anonymous
 lambda x: x * 2
 
 
-# Generic Method
-def generic_func[T](something: T) -> T:
+# Generic
+def generic_method[T](something: T) -> T:
     return something
+# !SECTION
 
 
-# Calling a Method Positionally
+# SECTION Calling Methods
+# Positionally
 print(multiply(1, 2))
 
-# Calling a Method with Keywords
+# Keywords
 print(multiply(to_multiply=1, multiplier=2))
 
 # Passing anything to a generic while maintaining return type
-print(generic_func("anything"))
-print(generic_func(12345))
+# (There are no type errors here!)
+result: str = generic_method("anything")
+result_2: int = generic_method(12345)
+# !SECTION

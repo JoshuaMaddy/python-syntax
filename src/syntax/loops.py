@@ -1,6 +1,6 @@
-# This file demonstrates loops. This file can be ran.
+# NOTE - This file demonstrates loops. This file can be ran.
 
-# For loops
+# SECTION - For loops
 iterable = [1, 2, 3]
 
 print("Iterable")
@@ -17,15 +17,18 @@ tuple_iterable = [(1, "a"), (2, "b")]
 print("\nIterate Iterable of Tuples")
 for num, char in tuple_iterable:
     print(num, char)
+# !SECTION
 
-# While loops
+# SECTION - While loops
 print("\nWhile Loop")
 i = 0
 while i < 3:
     print(i)
     i += 1
+# !SECTION
 
-# Inline loops
+
+# SECTION - Inline loops
 inline_integers = [i for i in range(5)]
 inline_integers_multiplied = [i * 2 for i in range(5)]
 
@@ -38,3 +41,4 @@ print(inline_integers)
 print(inline_integers_multiplied)
 print(inline_set)
 print(inline_dict)
+# !SECTION

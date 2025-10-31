@@ -1,10 +1,10 @@
-# This file demonstrates common ways of writing classes. This file can be ran.
+# NOTE - This file demonstrates common ways of writing classes. This file can be ran.
 
 
 from typing import Any, Self
 
 
-# Class
+# SECTION - Classes
 class MyClass:
     class_attr: str
 
@@ -21,7 +21,7 @@ class MyClass:
         self.__my_private_class_attr = my_private_class_attr
 
     # 'dunder', meaning 'double under', methods - python 'magic' methods
-    # that make classes work with standard library functions and operators.
+    # that make classes work with standard library methods and operators.
     # There are dozens, but they are optional.
 
     # for repr() method
@@ -63,9 +63,10 @@ print(getattr(my_class_instance, "_MyClass__my_private_class_attr"))  # "default
 
 print(my_class_instance == my_class_instance)  # True
 print(my_class_instance == "something")  # False
+# !SECTION
 
 
-# Subclass
+# SECTION - Subclasses
 class MySubClass(MyClass):
     sub_class_attr: int
 
@@ -79,3 +80,4 @@ class MySubClass(MyClass):
 
         # Pass to Superclass
         super().__init__(my_class_attr, my_private_class_attr)
+# !SECTION
