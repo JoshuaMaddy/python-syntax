@@ -16,5 +16,5 @@ a_tuple = (1, 2, 3)
 var_1, var_2, var_3 = a_tuple
 
 # User input
-my_input = input("Prompt for input:")
+my_input = input("Prompt for input: ")
 print(my_input)
